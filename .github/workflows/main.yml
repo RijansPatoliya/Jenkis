@@ -1,0 +1,16 @@
+name: Rijans Patoliya
+
+on:
+ push: 
+   branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: printing
+        run: echo "Hello Rijans"
+
+
+
